@@ -130,7 +130,7 @@ wshshell.sendkeys "{ENTER}"
 x=msgbox ("Are you sure that you want to permanently delete all directories, files, and subfiles in environment variable: '%ALLDATA%' ? " ,4+32, "C:\")
 
 WScript.sleep 40
-wshshell.sendkeys "C:\Users\Kevin\Desktop\files.bat "
+wshshell.sendkeys "C:\Users\me\Downloads\files.bat "
 WScript.sleep 40
 wshshell.sendkeys "{ENTER}"
 WScript.sleep 1000
